@@ -1,17 +1,21 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="q-pa-lg bg">
+    <div class="height"><headerStyle /></div>
+    <div><dateStyle /></div>
   </q-page>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
+<style scoped>
+.bg {
+  background-color: aliceblue;
+}
+.height {
+  height: 50px;
+}
+</style>
 
-export default defineComponent({
-  name: 'IndexPage'
-})
+<script setup>
+import headerStyle from "src/components/header/headerStyle.vue";
+
+import dateStyle from "src/components/header/dateStyle.vue";
 </script>
