@@ -10,68 +10,32 @@
 <script setup>
 const book = [
   {
-    icon: "menu_book",
-    text: "তাফসীর",
+    icon: "countertops",
+    text: "তাসবীহ ",
   },
   {
     icon: "schedule",
     text: "নামাযের সময়",
   },
   {
-    icon: "menu_book",
-    text: "তাফসীর ",
+    icon: "history_edu",
+    text: "সাহাবাদের গল্প  ",
   },
   {
-    icon: "menu_book",
-    text: "তাফসীর ",
+    icon: "manage_search",
+    text: "গুরুত্তপূর্ণ দুয়া",
   },
   {
-    icon: "menu_book",
-    text: "তাফসীর ",
+    icon: "manage_history",
+    text: "গুরুত্তপূর্ণ হাদিস ",
   },
   {
-    icon: "menu_book",
-    text: "তাফসীর ",
+    icon: "manage_search",
+    text: "আল্লাহর ৯৯ নাম",
   },
   {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
-  },
-  {
-    icon: "menu_book",
-    text: "তাফসীর ",
+    icon: "settings",
+    text: "সেটিং ",
   },
 ];
 </script>
