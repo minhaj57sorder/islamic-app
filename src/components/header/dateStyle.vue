@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <div>
     <div>
       <div class="text">
         ১০ সফর ১৪৪৪ হি. ইয়াওমুল আরবিআ <q-icon name="dark_mode" />
@@ -8,7 +8,7 @@
         বুধবার, ২৩ ভাদ্র ১৪২৯ বঙ্গাব্দ, কার্যকাল
       </div>
     </div>
-  </q-page>
+  </div>
 </template>
 
 <style scoped>

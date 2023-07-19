@@ -1,8 +1,14 @@
 <template>
-  <q-dialog v-model="alert">
+  <q-dialog v-model="dioalogStore.openDateDialog" v-close-popup>
     <q-card>
       <q-card-section>
-        <div class="text-h6">Alert</div>
+        <q-date
+          v-model="date"
+          mask="YYYY-MM-DD"
+          minimal
+          class="shadow-0"
+          color="purple"
+        />
       </q-card-section>
     </q-card>
   </q-dialog>
@@ -11,5 +17,7 @@
 <script setup>
 import { ref } from "vue";
 
-const alert = ref(false);
+import { useDialogStore } from "src/stores/dateDialog";
+
+const dioalogStore = useDialogStore();
 </script>

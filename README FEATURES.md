@@ -25,3 +25,38 @@ const counterStore = useCounterStore();
 <q-btn label="Add" @click="counterStore.add" />
 <q-btn label="Subtract" @click="counterStore.subtruct" />
 }
+
+<!--import or export system for Store -->
+
+[
+  1st Rules:{
+  create a js file in Store Folder
+  }
+
+  2nd{
+  import {defineStore} from "pinia";
+  import { ref } from "vue";
+  }
+  3rd {
+  (variable create kora)
+
+  export const useCounterStore = defineStore("counter Store", () => {
+  const count = ref (1);
+
+  });
+  }
+  4th{
+  arry funtion
+
+  const add = () => {
+  count.value = count.value +1;
+  };
+  }
+
+  5th{
+  return{
+  value name
+  }
+}
+
+]

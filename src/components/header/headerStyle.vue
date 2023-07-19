@@ -1,13 +1,14 @@
 <template>
   <q-page>
     <div class="flex justify-between items-center">
-      <div class="row items-center">
-        <div @click="alert = true">
+      <div class="row items-center" style="margin-left: -15px">
+        <div @click="dioalogStore.openDateDialogManager">
           <q-btn flat rounded
-            ><q-icon class="text-h6" name="arrow_drop_down" /> {{ date }}</q-btn
+            ><q-icon class="text-h6" name="arrow_drop_down" />
+            {{ formattedString }}</q-btn
           >
         </div>
-        <div @click="alert = true">
+        <div @click="errorDioalog.openDioalogManager">
           <q-btn flat rounded size="15px" class="icon"
             ><q-icon name="error"
           /></q-btn>
@@ -24,20 +25,8 @@
         /></q-btn>
       </div>
     </div>
-
-    <q-dialog v-model="alert" v-close-popup>
-      <q-card>
-        <q-card-section>
-          <q-date
-            v-model="date"
-            mask="YYYY-MM-DD"
-            minimal
-            class="shadow-0"
-            color="purple"
-          />
-        </q-card-section>
-      </q-card>
-    </q-dialog>
+    <dateDialog />
+    <errorioalog />
   </q-page>
 </template>
 
@@ -55,7 +44,15 @@
 
 <script setup>
 import { ref } from "vue";
+import { date } from "quasar";
+import { useDialogStore } from "src/stores/dateDialog";
+scrollX;
+import dateDialog from "../dialog/dateDialog.vue";
+import { useErrorDioalog } from "src/stores/errorDioalog";
+import errorioalog from "src/components/dialog/errorDioalog.vue";
 
-const alert = ref(false);
-const date = ref("07/17/2023");
+const errorDioalog = useErrorDioalog();
+const dioalogStore = useDialogStore();
+const timeStamp = Date.now();
+const formattedString = date.formatDate(timeStamp, "MMM DD YY");
 </script>
