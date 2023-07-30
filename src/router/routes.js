@@ -8,6 +8,26 @@ const routes = [
         path: "/tasbihPage",
         component: () => import("pages/alltopic/inDex.vue"),
       },
+      {
+        path: "/salatTime",
+        component: () => import("pages/alltopic/salatTime.vue"),
+      },
+      {
+        path: "/allahrNam",
+        component: () => import("pages/alltopic/allahrNam.vue"),
+      },
+      {
+        path: "/sahabiStory",
+        component: () => import("pages/alltopic/sahabaStory.vue"),
+      },
+      {
+        path: "/importentHadis",
+        component: () => import("pages/alltopic/importentHadis.vue"),
+      },
+      {
+        path: "/importentDowa",
+        component: () => import("pages/alltopic/importentDowa.vue"),
+      },
     ],
   },
 

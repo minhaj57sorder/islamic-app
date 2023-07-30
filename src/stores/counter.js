@@ -7,6 +7,9 @@ export const useCounterStore = defineStore("counter store", () => {
     count.value = count.value + 1;
   };
   const subtruct = () => {
+    if (count.value <= 0) {
+      return;
+    }
     count.value = count.value - 1;
   };
   return {

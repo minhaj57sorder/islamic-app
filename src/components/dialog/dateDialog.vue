@@ -21,3 +21,5 @@ import { useDialogStore } from "src/stores/dateDialog";
 
 const dioalogStore = useDialogStore();
 </script>
+
+<style scoped></style>

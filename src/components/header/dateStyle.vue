@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="z">
     <div>
       <div class="text">
         ১০ সফর ১৪৪৪ হি. ইয়াওমুল আরবিআ <q-icon name="dark_mode" />

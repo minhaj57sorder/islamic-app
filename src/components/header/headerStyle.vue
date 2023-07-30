@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <div class="z">
     <div class="flex justify-between items-center">
       <div class="row items-center" style="margin-left: -15px">
         <div @click="dioalogStore.openDateDialogManager">
@@ -27,7 +27,7 @@
     </div>
     <dateDialog />
     <errorioalog />
-  </q-page>
+  </div>
 </template>
 
 <style scoped>
