@@ -1,9 +1,9 @@
 <template lang="">
-    <div class="q-pa-lg text-center text-h6 bg-green q-mb-md text-white">
-      সাহাবাদের ইতিহাস
-    </div>
-<div class="q-pa-lg">
-    <div>
+  <div class="q-pa-lg text-center text-h6 bg-green q-mb-md text-white">
+    সাহাবাদের ইতিহাস
+  </div>
+  <div class="q-pa-lg">
+    <div @click="$router.push('/historyOne')">
       <q-card
         class="q-pa-lg q-mb-md"
         v-for="(item, index) in sahaba"

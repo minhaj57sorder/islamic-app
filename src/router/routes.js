@@ -32,6 +32,10 @@ const routes = [
         path: "/bookMark",
         component: () => import("pages/alltopic/bookMark.vue"),
       },
+      {
+        path: "/historyOne",
+        component: () => import("pages/data/sahaba/omor/historyOne.vue"),
+      },
     ],
   },
 
