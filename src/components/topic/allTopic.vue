@@ -1,15 +1,17 @@
 <template>
   <q-list class="row text-center q-col-gutter-md">
     <q-item
-      clickable
-      v-ripple
-      :to="item.link"
       class="col-3 border q-mb-lg justify-center"
       v-for="(item, index) in book"
       :key="index"
     >
       <div class="text-center">
-        <div class="text-h2"><q-icon :name="item.icon" /></div>
+        <div class="text-h2">
+          <q-icon
+          :name="item.icon"
+          @click="$router.push(item.link)"
+          />
+        </div>
         <div>{{ item.text }}</div>
       </div>
     </q-item>
