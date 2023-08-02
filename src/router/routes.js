@@ -28,6 +28,10 @@ const routes = [
         path: "/importentDowa",
         component: () => import("pages/alltopic/importentDowa.vue"),
       },
+      {
+        path: "/bookMark",
+        component: () => import("pages/alltopic/bookMark.vue"),
+      },
     ],
   },
 

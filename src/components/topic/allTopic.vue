@@ -49,8 +49,9 @@ const book = [
     link: "/allahrNam",
   },
   {
-    icon: "settings",
-    text: "সেটিং ",
+    icon: "bookmark",
+    text: "বুকমার্ক ",
+    link: "/bookMark",
   },
 ];
 </script>
