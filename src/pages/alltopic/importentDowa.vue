@@ -1,6 +1,12 @@
 <template lang="">
-  <div class="q-pa-lg text-center text-h5 bg-green q-mb-md text-white">
-    প্রয়োজনিয় দুয়া
+
+<div class=" positions q-pa-lg text-center text-h5 bg-green q-mb-md text-white">
+  <div class="position flex  ">
+    <q-icon name="arrow_back"
+    @click="$router.back()"
+    />
+  </div>
+  <div>প্রয়োজনিয় দুয়া</div>
   </div>
 <div class="q-pa-lg">
   <div>
@@ -56,6 +62,12 @@ const sahaba = [
 border-radius: 100px;
 padding: 10px 15px;
 color: white;
+}
+.position{
+  position: absolute;
+}
+.positions{
+  position: relative;
 }
 </style>
 ]

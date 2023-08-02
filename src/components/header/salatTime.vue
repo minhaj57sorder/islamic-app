@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <div class="aro">আরো</div>
+      <div class="aro" @click="$router.push('/salatTime')">আরো</div>
     </div>
   </div>
 </template>

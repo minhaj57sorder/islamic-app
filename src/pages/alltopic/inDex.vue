@@ -46,6 +46,16 @@
               @click="counterStore.subtruct"
             />
           </div>
+          <div>
+            <q-btn
+              flat
+              rounded
+              color="white"
+              class="bg-green"
+              label="reset"
+              @click="counterStore.reset"
+            />
+          </div>
         </div>
       </div>
     </div>
