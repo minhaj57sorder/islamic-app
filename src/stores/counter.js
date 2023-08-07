@@ -13,7 +13,7 @@ export const useCounterStore = defineStore("counter store", () => {
     count.value = count.value - 1;
   };
   const reset = () => {
-    if (count.value = 0){
+    if ((count.value = 0)) {
       return;
     }
   };
@@ -24,3 +24,9 @@ export const useCounterStore = defineStore("counter store", () => {
     count,
   };
 });
+
+// import { defineStore } from "pinia";
+// import { ref } from "vue";
+// export const useCounterStore = defineStore("counter store", () => {
+// const count = ref(0);
+// });

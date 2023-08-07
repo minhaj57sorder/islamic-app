@@ -1,15 +1,20 @@
 <template lang="">
-  <div class="q-pa-lg text-center text-h6 bg-green q-mb-md text-white">
-    সাহাবাদের ইতিহাস
+  <div
+    class="q-pa-lg flex q-col-gutter-lg items-center text-h6 bg-green q-mb-md text-white"
+  >
+    <div class="position flex">
+      <q-icon name="arrow_back" @click="$router.back()" />
+    </div>
+    <div class="text-center" quasar dev>সাহাবাদের ইতিহাস</div>
   </div>
   <div class="q-pa-lg">
-    <div @click="$router.push('/historyOne')">
+    <div @click="$router.push('/abubakkar')">
       <q-card
         class="q-pa-lg q-mb-md"
         v-for="(item, index) in sahaba"
         :key="index"
       >
-        <div class="flex items-center q-col-gutter-xl">
+        <div class="flex items-center q-col-gutter-md">
           <div>
             <div class="bg-green-9 number">{{ item.number }}</div>
           </div>
@@ -28,10 +33,11 @@ const sahaba = [
     number: "1",
     title: "ওমোর (রা) এর জীবন কাহিনী",
     lesson: "15 lesson",
+    link: "/historyOne",
   },
   {
     number: "1",
-    title: "ওমোর (রা) এর জীবন কাহিনী",
+    title: "আবু বকর (রা) এর জীবন কাহিনী",
     lesson: "15 lesson",
   },
   {

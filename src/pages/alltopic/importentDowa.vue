@@ -1,15 +1,14 @@
 <template lang="">
-
-<div class=" positions q-pa-lg text-center text-h5 bg-green q-mb-md text-white">
-  <div class="position flex  ">
-    <q-icon name="arrow_back"
-    @click="$router.back()"
-    />
-  </div>
-  <div>প্রয়োজনিয় দুয়া</div>
+  <div
+    class="positions q-pa-lg text-center text-h5 bg-green q-mb-md text-white"
+  >
+    <div class="position flex">
+      <q-icon name="arrow_back" @click="$router.back()" />
+    </div>
+    <div>প্রয়োজনিয় দুয়া</div>
   </div>
   <div class="q-pa-lg">
-    <div>
+    <div @click="$router.push('/importantDua')">
       <q-card
         class="q-pa-lg q-mb-md"
         v-for="(item, index) in sahaba"
@@ -63,10 +62,10 @@ const sahaba = [
   padding: 10px 15px;
   color: white;
 }
-.position{
+.position {
   position: absolute;
 }
-.positions{
+.positions {
   position: relative;
 }
 </style>

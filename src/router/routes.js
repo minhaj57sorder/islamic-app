@@ -36,6 +36,14 @@ const routes = [
         path: "/historyOne",
         component: () => import("pages/data/sahaba/omor/historyOne.vue"),
       },
+      {
+        path: "/abubakkar",
+        component: () => import("pages/data/sahaba/abu/historyTow.vue"),
+      },
+      {
+        path: "/importantDua",
+        component: () => import("pages/data/dowa/namaj/namajDuwa.vue"),
+      },
     ],
   },
 
