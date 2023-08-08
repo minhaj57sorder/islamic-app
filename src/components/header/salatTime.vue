@@ -15,7 +15,7 @@
 
 <style scoped>
 .border {
-  border-right: 1px solid red;
+  border-right: 1px solid rgb(5, 5, 5);
   height: 45px;
 }
 .main {

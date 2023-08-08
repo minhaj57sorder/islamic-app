@@ -1,14 +1,14 @@
-<template lang="">
-  <div class="q-pa-lg text-h5 text-center bg-green text-white text-bold">বুকমার্ক</div> 
-  <div>
-
+<template>
+  <div
+    class="q-pa-lg text-h5 text-center bg-green text-white text-bold relative-position"
+  >
+    <div class="absolute">
+      <q-icon @click="$router.back()" name="arrow_back" />
+    </div>
+    <div class="">বুকমার্ক</div>
   </div>
 </template>
 <script>
-export default {
-
-}
+export default {};
 </script>
-<style lang="">
-
-</style>
+<style lang=""></style>

@@ -3,11 +3,10 @@
     <q-card
       class="q-pa-md bg-green-2 flex flex-center"
       style="
-        width: 300px;
-        height: 400px;
+        width: 350px;
+        height: auto;
         border-radius: 30px;
         box-shadow: 5px 5px 100px 10px rgb(187, 231, 204);
-        border: 1px solid red;
       "
     >
       <q-card-section>
