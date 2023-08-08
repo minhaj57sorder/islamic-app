@@ -1,18 +1,20 @@
 <template lang="">
   <div
-    class="q-pa-lg flex q-col-gutter-lg items-center text-h6 bg-green q-mb-md text-white"
+    class="relative-position q-pa-lg items-center text-center text-h6 bg-green q-mb-md text-white"
   >
-    <div class="position flex">
+    <div class="absolute">
       <q-icon name="arrow_back" @click="$router.back()" />
     </div>
-    <div class="text-center" quasar dev>সাহাবাদের ইতিহাস</div>
+    <div>সাহাবাদের ইতিহাস</div>
   </div>
+
   <div class="q-pa-lg">
-    <div @click="$router.push('/abubakkar')">
+    <div>
       <q-card
         class="q-pa-lg q-mb-md"
         v-for="(item, index) in sahaba"
         :key="index"
+        @click="$router.push(item.link)"
       >
         <div class="flex items-center q-col-gutter-md">
           <div>
@@ -31,24 +33,27 @@
 const sahaba = [
   {
     number: "1",
-    title: "ওমোর (রা) এর জীবন কাহিনী",
+    title: " হযরত আবু বকর (রা) এর জীবনী",
+    lesson: "15 lesson",
+    link: "/abubakkar",
+  },
+  {
+    number: "1",
+    title: "হযরত উমর  (রা) এর জীবনী ",
     lesson: "15 lesson",
     link: "/historyOne",
   },
   {
     number: "1",
-    title: "আবু বকর (রা) এর জীবন কাহিনী",
+    title: "হযরত উসমান (রা) এর জীবনী ",
     lesson: "15 lesson",
+    link: "/usmanHistory",
   },
   {
     number: "1",
-    title: "ওমোর (রা) এর জীবন কাহিনী",
+    title: "হযরত আলী  (রা) এর জীবনী ",
     lesson: "15 lesson",
-  },
-  {
-    number: "1",
-    title: "ওমোর (রা) এর জীবন কাহিনী",
-    lesson: "15 lesson",
+    link: "/aliHostory",
   },
 ];
 </script>

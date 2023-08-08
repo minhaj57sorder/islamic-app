@@ -6,6 +6,11 @@
 6. tasbih
 7. 99 allah name
 
+rm -r folder name
+
+excit
+cd ..
+
 main- fixed-top style="z-index: 10000"
 
 import headerStyle from "src/components/header/headerStyle.vue";
@@ -29,42 +34,39 @@ const counterStore = useCounterStore();
 <!--import or export system for Store -->
 
 [
-  1st Rules:{
-  create a js file in Store Folder
-  }
+1st Rules:{
+create a js file in Store Folder
+}
 
-  2nd{
-  import {defineStore} from "pinia";
-  import { ref } from "vue";
-  }
-  3rd {
-  (variable create kora)
+2nd{
+import {defineStore} from "pinia";
+import { ref } from "vue";
+}
+3rd {
+(variable create kora)
 
-  export const useCounterStore = defineStore("counter Store", () => {
-  const count = ref (1);
+export const useCounterStore = defineStore("counter Store", () => {
+const count = ref (1);
 
-  });
-  }
-  4th{
-  arry funtion
+});
+}
+4th{
+arry funtion
 
-  const add = () => {
-  count.value = count.value +1;
-  };
-  }
+const add = () => {
+count.value = count.value +1;
+};
+}
 
-  5th{
-  return{
-  value name
-  }
+5th{
+return{
+value name
+}
 }
 
 ]
 
-
-
-
- আল্লাহর ৯৯ নাম আরবি , বাংলা , অর্থসহ </p>
+আল্লাহর ৯৯ নাম আরবি , বাংলা , অর্থসহ </p>
 
       ২)  -  - ।
       ৩)  -  -

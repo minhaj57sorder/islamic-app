@@ -41,8 +41,24 @@ const routes = [
         component: () => import("pages/data/sahaba/abu/historyTow.vue"),
       },
       {
+        path: "/aliHostory",
+        component: () => import("pages/data/sahaba/ali/aliHistory.vue"),
+      },
+      {
+        path: "/usmanHistory",
+        component: () => import("pages/data/sahaba/usman/usmanHistory.vue"),
+      },
+      {
         path: "/importantDua",
         component: () => import("pages/data/dowa/namaj/namajDuwa.vue"),
+      },
+      {
+        path: "/everySalat",
+        component: () => import("pages/data/dowa/namaj/everySalat.vue"),
+      },
+      {
+        path: "/munaJat",
+        component: () => import("pages/data/dowa/namaj/munaJat.vue"),
       },
     ],
   },
