@@ -1,17 +1,45 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="q-pa-lg bg relative-position">
+    <div class="fixed-top q-pa-lg bgs" >
+      <div class="height"><headerStyle /></div>
+      <div class="dateheight"><dateStyle /></div>
+    </div>
+    <div class="prefix">
+      <div><salatTime /></div>
+      <div class="q-mt-lg"><hadisStyle /></div>
+
+      <div class="q-mt-lg"><allTopic /></div>
+    </div>
   </q-page>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
+<style scoped>
+.bg {
+  background-color: aliceblue;
+}
+.bgs {
+  background-color: aliceblue;
+  height: 130px;
+}
+.height {
+  height: 50px;
+}
+.dateheight {
+  height: 60px;
+}
+.prefix {
+  margin-top: 100px;
+}
+</style>
 
-export default defineComponent({
-  name: 'IndexPage'
-})
+<script setup>
+import headerStyle from "src/components/header/headerStyle.vue";
+
+import dateStyle from "src/components/header/dateStyle.vue";
+
+import salatTime from "src/components/header/salatTime.vue";
+
+import hadisStyle from "src/components/header/hadisStyle.vue";
+
+import allTopic from "src/components/topic/allTopic.vue";
 </script>

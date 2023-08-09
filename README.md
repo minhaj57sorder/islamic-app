@@ -36,6 +36,8 @@ npm run format
 ```bash
 quasar build
 ```
+quasar dev -m capacitor -T android
+
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
