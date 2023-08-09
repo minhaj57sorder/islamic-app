@@ -60,6 +60,34 @@ const routes = [
         path: "/munaJat",
         component: () => import("pages/data/dowa/namaj/munaJat.vue"),
       },
+      {
+        path: "/kalima",
+        component: () =>
+          import("pages/data/dowa/hadisgroup/kalima/kalimaPage.vue"),
+      },
+      {
+        path: "/namajPage",
+        component: () =>
+          import("pages/data/dowa/hadisgroup/namaj/namajPage.vue"),
+      },
+      {
+        path: "/rojaPage",
+        component: () => import("pages/data/dowa/hadisgroup/roja/rojaPage.vue"),
+      },
+      {
+        path: "/jakatPage",
+        component: () =>
+          import("pages/data/dowa/hadisgroup/jakat/jakatPage.vue"),
+      },
+      {
+        path: "/hajjPage",
+        component: () => import("pages/data/dowa/hadisgroup/hazz/hajjPage.vue"),
+      },
+      {
+        path: "/dawat",
+        component: () =>
+          import("pages/data/dowa/hadisgroup/dawat/invitePage.vue"),
+      },
     ],
   },
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="q-pa-lg text-h5 text-center bg-green text-white text-bold relative-position"
+    class="q-pa-md text-h6 text-center bg-green text-white text-bold relative-position"
   >
     <div class="absolute">
       <q-icon @click="$router.back()" name="arrow_back" />

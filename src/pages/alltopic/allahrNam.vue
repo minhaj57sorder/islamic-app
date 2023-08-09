@@ -1,6 +1,11 @@
 <template lang="">
-  <div class="text-center text-h5 text-white bg-green border q-pa-md q-mb-md">
-    আল্লাহর ৯৯ নাম আরবি , বাংলা , অর্থসহ
+  <div
+    class="relative-position text-center text-h6 text-white bg-green border q-pa-md q-mb-md"
+  >
+    <div class="absolute" @click="$router.back()">
+      <q-icon name="arrow_back" />
+    </div>
+    <div>আল্লাহর ৯৯ নাম আরবি , বাংলা , অর্থসহ</div>
   </div>
   <div class="q-pa-lg">
     <div>

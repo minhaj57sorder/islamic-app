@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative-position q-pa-lg items-center text-center text-h6 bg-green q-mb-md text-white"
+    class="relative-position q-pa-md items-center text-center text-h6 bg-green q-mb-md text-white"
   >
     <div class="absolute">
       <q-icon name="arrow_back" @click="$router.back()" />
@@ -14,6 +14,7 @@
         class="q-pa-lg q-mb-md"
         v-for="(item, index) in sahaba"
         :key="index"
+        @click="$router.push(item.link)"
       >
         <div class="flex items-center q-col-gutter-xl">
           <div>
@@ -33,32 +34,38 @@ const sahaba = [
   {
     number: "1",
     title: "কালিমা ",
-    lesson: "তাসবিহ ",
+    lesson: "কালিমা ",
+    link: "/kalima",
   },
   {
     number: "1",
     title: "নামায ",
-    lesson: "১ টি দুয়া ",
+    lesson: "নামায ",
+    link: "/namajPage",
   },
   {
     number: "1",
     title: "রোযা ",
-    lesson: "১ টি দুয়া",
+    lesson: "রোযা ",
+    link: "/rojaPage",
   },
   {
     number: "1",
     title: "হজ্জ",
-    lesson: "২টি দুয়া",
+    lesson: "হজ্জ",
+    link: "/hajjPage",
   },
   {
     number: "1",
     title: "যাকাত",
-    lesson: "২টি দুয়া",
+    lesson: "যাকাত",
+    link: "/jakatPage",
   },
   {
     number: "1",
     title: "দিনি দাউয়াত",
-    lesson: "২টি দুয়া",
+    lesson: "দিনি দাউয়াত ",
+    link: "/dawat",
   },
 ];
 </script>
