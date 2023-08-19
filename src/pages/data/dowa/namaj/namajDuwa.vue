@@ -14,8 +14,8 @@
       v-for="(item, index) in salat"
       :key="index"
     >
-      <div class="text-h5">{{ item.title }}</div>
-      <div class="text-h6 text-center">
+      <div class="text-h6">{{ item.title }}</div>
+      <div class="text-body1 text-center">
         {{ item.dowa }}
       </div>
       <div class="q-py-md">
@@ -25,8 +25,6 @@
     </div>
   </div>
 
-  <div class="text-center text-h5 q-py-md"></div>
-  <div class="text-h6 text-center"></div>
 </template>
 <script setup>
 const salat = [

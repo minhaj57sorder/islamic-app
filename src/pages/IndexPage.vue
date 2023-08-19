@@ -1,14 +1,14 @@
 <template>
-  <q-page class="q-pa-lg bg relative-position">
-    <div class="fixed-top q-pa-lg bgs" >
+  <q-page class="q-pa-md bgs relative-position">
+    <div class="fixed-top q-pa-md">
       <div class="height"><headerStyle /></div>
       <div class="dateheight"><dateStyle /></div>
     </div>
     <div class="prefix">
       <div><salatTime /></div>
-      <div class="q-mt-lg"><hadisStyle /></div>
+      <div class="q-mt-md"><hadisStyle /></div>
 
-      <div class="q-mt-lg"><allTopic /></div>
+      <div class="q-mt-md"><allTopic /></div>
     </div>
   </q-page>
 </template>
@@ -19,7 +19,6 @@
 }
 .bgs {
   background-color: aliceblue;
-  height: 130px;
 }
 .height {
   height: 50px;
