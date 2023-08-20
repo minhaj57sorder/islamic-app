@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="q-pa-lg bg relative-position">
+  <div class="q-pa-md bg relative-position">
     <div class=""><headerStyle /></div>
     <div class="q-mt-md"><dateStyle /></div>
 
