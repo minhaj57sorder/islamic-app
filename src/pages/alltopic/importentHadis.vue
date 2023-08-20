@@ -31,12 +31,7 @@
 </template>
 <script setup>
 const sahaba = [
-  {
-    number: "1",
-    title: "কালিমা ",
-    lesson: "কালিমা ",
-    link: "/kalima",
-  },
+
   {
     number: "1",
     title: "নামায ",
@@ -51,14 +46,14 @@ const sahaba = [
   },
   {
     number: "1",
-    title: "হজ্জ",
-    lesson: "হজ্জ",
+    title: "কুরআন",
+    lesson: "কুরআন",
     link: "/hajjPage",
   },
   {
     number: "1",
-    title: "যাকাত",
-    lesson: "যাকাত",
+    title: "যিকির",
+    lesson: "যিকির",
     link: "/jakatPage",
   },
   {

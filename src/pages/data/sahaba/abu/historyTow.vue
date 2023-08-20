@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-green q-pa-lg text-white text-h6">
-    হযরত আবু বকর (রাঃ) এর জীবন কাহিনী
+  <div class="bg-green q-pa-md text-white text-h6">
+    হযরত আবু বকর (রাঃ) এর জীবন
   </div>
-  <div class="q-pa-lg">
-    <div class="class=">
+  <div class="q-pa-md">
+    <div class="text-justify">
       <p>
         <span class="text-body1">ইসলামের ১ম খলিফা হযরত আবু বকর (রা:)</span>।তিনি
         আশারাতুল মুবাশশারার অন্তর্ভুক্ত।হযরত মুহাম্মদ (স:) এর প্রিয় সাহাবি

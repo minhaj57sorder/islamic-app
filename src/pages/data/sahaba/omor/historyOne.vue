@@ -1,11 +1,11 @@
 <template>
   <div class="text-h6 text-center q-pa-md bg-green text-white">
-    হযরত ওমর (রাঃ) এর ওমর ফারুক হওয়ার গল্প
+    হযরত ওমর (রাঃ) ফারুক হওয়ার গল্প
   </div>
-  <div class="q-pa-md">
+  <div class="q-pa-md text-justify">
     <div>
-      <span class="text-h6">হযরত ওমর (রাঃ) ইসলাম ধর্ম</span>
-      <span class="text-body1">
+      <span class="text-hbody1">হযরত ওমর (রাঃ) ইসলাম ধর্ম</span>
+      <span class="">
         গ্রহণ করেই রাসূল (সঃ) কে জিজ্ঞাসা করলেন, ”হে আল্লাহর রাসূল (সঃ) বর্তমানে
         মুসলমানের সংখ্যা কত? রাসূল (সঃ) উত্তর দিলেন, ”তোমাকে নিয়ে ৪০ (চল্লিশ)
         জন।” হযরত ওমর (রাঃ) বললেন, ”এটাই যথেষ্ট। আজ থেকে আমরা এই চল্লিশ জন্যই
