@@ -51,7 +51,6 @@
 import { ref } from "vue";
 import { date } from "quasar";
 import { useDialogStore } from "src/stores/dateDialog";
-scrollX;
 import dateDialog from "../dialog/dateDialog.vue";
 import { useErrorDioalog } from "src/stores/errorDioalog";
 import errorioalog from "src/components/dialog/errorDioalog.vue";

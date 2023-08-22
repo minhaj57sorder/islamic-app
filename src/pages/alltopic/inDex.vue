@@ -20,23 +20,24 @@
 
       <div class="flex flex-center q-mt-xl">
         <div
-          class="flex flex-center  text-h1 text-pink-9 counter"
+          class="flex flex-center text-h1 text-pink-9 counter"
           @click="counterStore.add"
         >
           {{ counterStore.count }}
         </div>
-        <div class="flex flex-center q-gutter-x-md q-mt-md">
-          <div>
-            <q-btn
-              flat
-              rounded
-              color="white"
-              class="bg-green"
-              label="Add"
-              @click="counterStore.add"
-            />
-          </div>
-          <!-- <div>
+      </div>
+      <div class="flex flex-center q-gutter-x-md q-mt-md">
+        <div>
+          <q-btn
+            flat
+            rounded
+            color="white"
+            class="bg-green"
+            label="Add"
+            @click="counterStore.add"
+          />
+        </div>
+        <!-- <div>
             <q-btn
               flat
               rounded
@@ -46,16 +47,15 @@
               @click="counterStore.subtruct"
             />
           </div> -->
-          <div>
-            <q-btn
-              flat
-              rounded
-              color="white"
-              class="bg-green"
-              label="reset"
-              @click="counterStore.reset"
-            />
-          </div>
+        <div>
+          <q-btn
+            flat
+            rounded
+            color="white"
+            class="bg-green"
+            label="reset"
+            @click="counterStore.reset"
+          />
         </div>
       </div>
     </div>
@@ -80,9 +80,6 @@
   background-color: rgba(177, 178, 189, 0.925);
   height: 130px;
 }
-
-
-
 </style>
 
 <script setup>
