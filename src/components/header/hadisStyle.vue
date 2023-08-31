@@ -13,18 +13,17 @@
     </div>
 
     <div class="flex justify-center items-center q-mt-xs">
-      <div class="arr text-h6"><q-icon name="arrow_forward" /></div>
+      <div class="arr text-body1"><q-icon name="arrow_forward" /></div>
     </div>
   </div>
 </template>
 
 <style scoped>
 .arr {
-  width: 70px;
-  border-radius: 15px;
-  color: white;
-  text-align: center;
-  padding: 3px 0px;
   background-color: green;
+  padding: 0px 10px 0px 10px;
+  border-radius: 30px 20px 30px 20px;
+  color: white;
+  margin-left: 2px;
 }
 </style>

@@ -1,11 +1,11 @@
 <template lang="">
-  <div class="q-pa-lg bg relative-position">
+  <div class="q-pa-md bg relative-position">
     <div class=""><headerStyle /></div>
     <div class="q-mt-md"><dateStyle /></div>
 
     <div>
       <div class="main">
-        <div class="flex justify-between q-pa-lg items-center">
+        <div class="items-center flex justify-between q-py-lg">
           <div>ইশরাক ৫:৫৭ মি.</div>
           <div class="border"></div>
           <div>যুহর ১১:৫৮ মি.</div>
@@ -92,6 +92,6 @@ const salatTime = [
 <style scoped>
 .border {
   border-right: 1px solid red;
-  height: 45px;
+  height: 20px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main">
-      <div class="flex justify-between q-pa-lg items-center">
+      <div class="flex justify-between q-pa-sm items-center">
         <div>ইশরাক ৫:৫৭ মি.</div>
         <div class="border"></div>
         <div>যুহর ১১:৫৮ মি.</div>
@@ -21,13 +21,13 @@
 .main {
 }
 .aro {
-  margin-top: -10px;
-  width: 80px;
 
-  border-radius: 15px;
+  width: 60px;
+  font-size: 12px !important;
+  border-radius: 30px 20px 30px 20px;
   color: white;
   text-align: center;
-  padding: 8px 5px;
+  padding: 3px 3px;
   background-color: green;
 }
 </style>

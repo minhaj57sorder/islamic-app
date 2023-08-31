@@ -8,15 +8,15 @@
     <div>প্রয়োজনিয় হাদিস</div>
   </div>
 
-  <div class="q-pa-lg">
+  <div class="q-pa-md">
     <div>
       <q-card
-        class="q-pa-lg q-mb-md"
+        class="q-pa-sm q-mb-md"
         v-for="(item, index) in sahaba"
         :key="index"
         @click="$router.push(item.link)"
       >
-        <div class="flex items-center q-col-gutter-xl">
+        <div class="flex items-center q-gutter-x-xl">
           <div>
             <div class="bg-green-9 number">{{ item.number }}</div>
           </div>
@@ -31,12 +31,7 @@
 </template>
 <script setup>
 const sahaba = [
-  {
-    number: "1",
-    title: "কালিমা ",
-    lesson: "কালিমা ",
-    link: "/kalima",
-  },
+
   {
     number: "1",
     title: "নামায ",
@@ -51,14 +46,14 @@ const sahaba = [
   },
   {
     number: "1",
-    title: "হজ্জ",
-    lesson: "হজ্জ",
+    title: "কুরআন",
+    lesson: "কুরআন",
     link: "/hajjPage",
   },
   {
     number: "1",
-    title: "যাকাত",
-    lesson: "যাকাত",
+    title: "যিকির",
+    lesson: "যিকির",
     link: "/jakatPage",
   },
   {
@@ -72,7 +67,7 @@ const sahaba = [
 <style scoped>
 .number {
   border-radius: 100px;
-  padding: 10px 15px;
+  padding: 5px 10px;
   color: white;
 }
 </style>

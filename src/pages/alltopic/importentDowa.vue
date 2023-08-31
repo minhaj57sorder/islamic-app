@@ -7,15 +7,15 @@
     </div>
     <div>প্রয়োজনিয় দুয়া</div>
   </div>
-  <div class="q-pa-lg">
+  <div class="q-pa-md">
     <div>
       <q-card
-        class="q-pa-lg q-mb-md"
+        class="q-pa-sm q-mb-sm"
         v-for="(item, index) in sahaba"
         :key="index"
         @click="$router.push(item.link)"
       >
-        <div class="flex items-center q-col-gutter-md">
+        <div class="flex  q-gutter-x-md">
           <div>
             <div class="bg-green-9 number">{{ item.number }}</div>
           </div>
@@ -62,9 +62,12 @@ const sahaba = [
 </script>
 <style scoped>
 .number {
-  border-radius: 100px;
-  padding: 10px 15px;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  height:auto;
+  width: auto;
   color: white;
+  text:center;
 }
 .position {
   position: absolute;

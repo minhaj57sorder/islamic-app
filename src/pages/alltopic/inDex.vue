@@ -20,23 +20,24 @@
 
       <div class="flex flex-center q-mt-xl">
         <div
-          class="flex flex-center text-h1 text counter"
+          class="flex flex-center text-h1 text-pink-9 counter"
           @click="counterStore.add"
         >
           {{ counterStore.count }}
         </div>
-        <div class="flex flex-center q-col-gutter-md q-mt-lg">
-          <div>
-            <q-btn
-              flat
-              rounded
-              color="white"
-              class="bg-green"
-              label="Add"
-              @click="counterStore.add"
-            />
-          </div>
-          <div>
+      </div>
+      <div class="flex flex-center q-gutter-x-md q-mt-md">
+        <div>
+          <q-btn
+            flat
+            rounded
+            color="white"
+            class="bg-green"
+            label="Add"
+            @click="counterStore.add"
+          />
+        </div>
+        <!-- <div>
             <q-btn
               flat
               rounded
@@ -45,17 +46,16 @@
               label="subtruct"
               @click="counterStore.subtruct"
             />
-          </div>
-          <div>
-            <q-btn
-              flat
-              rounded
-              color="white"
-              class="bg-green"
-              label="reset"
-              @click="counterStore.reset"
-            />
-          </div>
+          </div> -->
+        <div>
+          <q-btn
+            flat
+            rounded
+            color="white"
+            class="bg-green"
+            label="reset"
+            @click="counterStore.reset"
+          />
         </div>
       </div>
     </div>
@@ -64,9 +64,9 @@
 
 <style scoped>
 .counter {
-  width: 250px;
-  height: 250px;
-  border: 10px solid red;
+  width: 200px;
+  height: 200px;
+  border: 10px solid rgb(238, 238, 238);
   border-radius: 50%;
   z-index: 5;
 }
@@ -74,20 +74,11 @@
   border-radius: 20px;
 }
 .bg {
-  background-color: aliceblue;
+  background-color: rgba(177, 178, 189, 0.925);
 }
 .bgs {
-  background-color: aliceblue;
+  background-color: rgba(177, 178, 189, 0.925);
   height: 130px;
-}
-.height {
-  height: 50px;
-}
-.dateheight {
-  height: 60px;
-}
-.prefix {
-  margin-top: 100px;
 }
 </style>
 

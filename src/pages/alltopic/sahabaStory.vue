@@ -8,10 +8,10 @@
     <div>সাহাবাদের ইতিহাস</div>
   </div>
 
-  <div class="q-pa-lg">
+  <div class="q-pa-md">
     <div>
       <q-card
-        class="q-pa-lg q-mb-md"
+        class="q-pa-sm q-mb-sm"
         v-for="(item, index) in sahaba"
         :key="index"
         @click="$router.push(item.link)"
