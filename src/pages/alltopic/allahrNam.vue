@@ -5,7 +5,7 @@
     <div class="absolute" @click="$router.back()">
       <q-icon name="arrow_back" />
     </div>
-    <div>আল্লাহর ৯৯ নাম আরবি , বাংলা , অর্থসহ</div>
+    <div>আল্লাহর নাম বাংলা , অর্থসহ</div>
   </div>
   <div class="q-pa-md">
     <div>

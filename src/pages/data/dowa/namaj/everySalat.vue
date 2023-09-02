@@ -8,27 +8,28 @@
     <div class="text-h6 text-center">প্রত্তেক নামাজ এর পরের দুয়া</div>
   </div>
 
-  <div class="q-pa-md" v-for="(item, index) in dowa" :key="index">
-    <div class="q-mb-md q-mt-xs relative-position">
+  <div class="q-px-md" v-for="(item, index) in dowa" :key="index">
+    <div class="q-mb-md q-mt-xs relative-position " >
       <div
-        class="bg-green text-white text-bold q-py-sm q-px-md absolute"
+        class="bg-green text-white text-bold q-py-xs q-px-sm absolute"
         style="border-radius: 50%; margin-top: -3px"
       >
         {{ item.number }}
       </div>
-      <div class="text-h6 text-center text-bold">{{ item.title }}</div>
+      <div class="text-body1 text-center text-bold">{{ item.title }}</div>
     </div>
 
     <div class="q-mb-md text-justify">
       {{ item.hadis }}
     </div>
-    <div class="text-h5 text-bold text-center q-mt-lg">
+    <div class="text-body1 text-bold text-center q-mt-lg">
       {{ item.arbi }}
     </div>
     <p class="text-justify">
       {{ item.pronun }}
     </p>
     <div class="text-justify">{{ item.dowa }}</div>
+    <q-separator class="q-my-lg"/>
   </div>
 </template>
 <script setup>
